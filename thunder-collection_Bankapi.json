@@ -1,0 +1,936 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Bankapi",
+    "collectionId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+    "dateExported": "2024-05-07T01:51:17.697Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4acd02b6-77a8-4fb7-8a65-8edc9c6c97eb",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "staffregister",
+            "url": "http://localhost:8000/api/user/staffregister/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-05-03T00:31:09.281Z",
+            "modified": "2024-05-06T10:45:32.061Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "staff@gmail.com"
+                    },
+                    {
+                        "name": "name",
+                        "value": "c14"
+                    },
+                    {
+                        "name": "password",
+                        "value": "password@123"
+                    },
+                    {
+                        "name": "password2",
+                        "value": "password@123"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "2752fe46-43d3-4725-9470-d92fb6d4143f",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "customer register",
+            "url": "http://localhost:8000/api/user/register/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-03T00:32:12.009Z",
+            "modified": "2024-05-06T16:25:53.192Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "c200@gmail.com"
+                    },
+                    {
+                        "name": "name",
+                        "value": "c200"
+                    },
+                    {
+                        "name": "password",
+                        "value": "password@123"
+                    },
+                    {
+                        "name": "password2",
+                        "value": "password@123"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "41070216-5c8c-4733-9296-e8c997dc6f26",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:8000/api/user/login/",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-05-03T00:32:42.384Z",
+            "modified": "2024-05-07T00:19:43.815Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": " c200@gmail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "password@123"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "1bed0e0c-6524-437b-9a4f-4a9722cec571",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "Customer account creation",
+            "url": "http://localhost:8000/customer/account-application/",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-05-03T00:33:30.936Z",
+            "modified": "2024-05-06T22:07:19.601Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDM1NDg0LCJpYXQiOjE3MTUwMzE4ODQsImp0aSI6ImUyMmVjY2Q1NTZlZDQ2NTI5ZTcwYTZjYjE5MWJmZWExIiwidXNlcl9pZCI6NDB9.78CLLDtmfliFneT0_EcLnQOoN3nEuJ1oa25wmHjW8U0"
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "mobile_number",
+                        "value": "912404541211"
+                    },
+                    {
+                        "name": "date_of_birth",
+                        "value": "2000-10-02"
+                    },
+                    {
+                        "name": "adhar_number",
+                        "value": "9011 78819 2514"
+                    },
+                    {
+                        "name": "pancard_number",
+                        "value": "KkiuXPK40111237"
+                    },
+                    {
+                        "name": "branch",
+                        "value": "4"
+                    },
+                    {
+                        "name": "age",
+                        "value": "18"
+                    },
+                    {
+                        "name": "account_type",
+                        "value": "1"
+                    },
+                    {
+                        "name": "upi_pin",
+                        "value": "2000"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "photo",
+                        "value": "c:\\Users\\user\\Downloads\\images (12).jpeg"
+                    },
+                    {
+                        "name": "pancard_document",
+                        "value": "c:\\Users\\user\\Downloads\\Django Main Project Details (1).pdf"
+                    },
+                    {
+                        "name": "adarcard_document",
+                        "value": "c:\\Users\\user\\Downloads\\Django E-commerce Project Requirements (2).pdf"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "ae930bfa-1e2e-4409-84f7-a3907f5c371a",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "own account detail",
+            "url": "http://localhost:8000/customer/my-account/",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-05-03T01:06:49.451Z",
+            "modified": "2024-05-06T22:56:24.554Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDM5MTQzLCJpYXQiOjE3MTUwMzU1NDMsImp0aSI6IjIxNWRjYmFkN2JlYzRiMmM5NDIzNzkyYmRjNGIxOWE3IiwidXNlcl9pZCI6NDB9.B4cd1-3llp82YZkSfZCmq-F6zABzC7z9SFIj7Fut0xg"
+                }
+            ]
+        },
+        {
+            "_id": "414f3923-1cff-45a4-93bb-463c97323546",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "edit account detail",
+            "url": "http://localhost:8000/customer/accounts/18/edit/",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2024-05-03T03:41:05.259Z",
+            "modified": "2024-05-06T22:55:49.225Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": " Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDM5MTQzLCJpYXQiOjE3MTUwMzU1NDMsImp0aSI6IjIxNWRjYmFkN2JlYzRiMmM5NDIzNzkyYmRjNGIxOWE3IiwidXNlcl9pZCI6NDB9.B4cd1-3llp82YZkSfZCmq-F6zABzC7z9SFIj7Fut0xg"
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "mobile_number",
+                        "value": "6125458574"
+                    },
+                    {
+                        "name": "account_type",
+                        "value": "3"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "a6505c6c-467c-4b81-816d-f0053a0d670b",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "edit accountstatus",
+            "url": "http://localhost:8000/staff/account-status-change/",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-05-03T04:05:13.002Z",
+            "modified": "2024-05-06T22:57:39.958Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDM5ODA5LCJpYXQiOjE3MTUwMzYyMDksImp0aSI6IjUzNzI1ZDY5ZGY1NTRlNzc5Y2RlMDkwNzgxMmNmYmMwIiwidXNlcl9pZCI6MTV9.Zc2i0FO4VLKZ5USVlSCMhLKjbtP84GLPShod6tbso_A"
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "account_id",
+                        "value": "18"
+                    },
+                    {
+                        "name": "new_status",
+                        "value": "Approved"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "543d2cbb-9928-4a47-9519-54b727ada18a",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "all accounts-staff",
+            "url": "http://localhost:8000/staff/accounts/",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-05-03T09:37:59.325Z",
+            "modified": "2024-05-06T10:54:05.560Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE0OTk1OTQxLCJpYXQiOjE3MTQ5OTIzNDEsImp0aSI6IjkzNjcyOTE5NDRmYzRjMGNhYjQzMDE3MmNlYzVhYzI1IiwidXNlcl9pZCI6MTV9.PM44FlXaOSUwLJStxms5hpCXivRu2U3dG_RVvjk9r8w"
+                }
+            ]
+        },
+        {
+            "_id": "9469d565-46df-44c4-99a2-af306ea3a03a",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "staff applicationstatus change",
+            "url": "http://localhost:8000/staff/account-status-change/",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-05-03T09:43:16.580Z",
+            "modified": "2024-05-06T10:46:02.007Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE0OTk1OTQxLCJpYXQiOjE3MTQ5OTIzNDEsImp0aSI6IjkzNjcyOTE5NDRmYzRjMGNhYjQzMDE3MmNlYzVhYzI1IiwidXNlcl9pZCI6MTV9.PM44FlXaOSUwLJStxms5hpCXivRu2U3dG_RVvjk9r8w"
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "account_id",
+                        "value": "17"
+                    },
+                    {
+                        "name": "new_status",
+                        "value": "Approved"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "e620bf95-5d5a-442a-affc-95033c6d4a8d",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "deposite amount ",
+            "url": "http://localhost:8000/customer/deposit/",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2024-05-03T09:49:18.731Z",
+            "modified": "2024-05-06T23:00:19.743Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDM5MTQzLCJpYXQiOjE3MTUwMzU1NDMsImp0aSI6IjIxNWRjYmFkN2JlYzRiMmM5NDIzNzkyYmRjNGIxOWE3IiwidXNlcl9pZCI6NDB9.B4cd1-3llp82YZkSfZCmq-F6zABzC7z9SFIj7Fut0xg"
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "deposit_amount",
+                        "value": "80000"
+                    },
+                    {
+                        "name": "your_account_number",
+                        "value": "0860025781"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "298028ff-9af0-4bb8-a415-06ccd10521db",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "withdraw amount",
+            "url": "http://localhost:8000/customer/withdraw/",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2024-05-03T10:47:59.334Z",
+            "modified": "2024-05-06T23:00:09.194Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDM5MTQzLCJpYXQiOjE3MTUwMzU1NDMsImp0aSI6IjIxNWRjYmFkN2JlYzRiMmM5NDIzNzkyYmRjNGIxOWE3IiwidXNlcl9pZCI6NDB9.B4cd1-3llp82YZkSfZCmq-F6zABzC7z9SFIj7Fut0xg"
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "your_account_number",
+                        "value": "0860025781"
+                    },
+                    {
+                        "name": "withdraw_amount",
+                        "value": "20"
+                    },
+                    {
+                        "name": "transaction_account_number",
+                        "value": "9260262323"
+                    },
+                    {
+                        "name": "upi_pin",
+                        "value": "2000"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "69d53780-a5f9-41b4-a32c-8807118ee544",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "loanapply ",
+            "url": "http://localhost:8000/customer/loan-apply/",
+            "method": "POST",
+            "sortNum": 130000,
+            "created": "2024-05-03T14:37:03.364Z",
+            "modified": "2024-05-06T23:59:57.979Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDQzNTU1LCJpYXQiOjE3MTUwMzk5NTUsImp0aSI6Ijg1YjM0YmU2OTEwMjQ3OGViYTcxZTI2M2NmMmY4OGJiIiwidXNlcl9pZCI6NDB9.oryRsr1a05P9hhvBcqKgiSLNKIH3f8CaL6jCo0KS9J0"
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "loanAmount",
+                        "value": "7000"
+                    },
+                    {
+                        "name": "Proof_of_identity",
+                        "value": "PanCard"
+                    },
+                    {
+                        "name": "Address_proof",
+                        "value": "RationCard"
+                    },
+                    {
+                        "name": "loanname",
+                        "value": "1"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "8b442280-f35c-49d6-a5ef-28d2a4ab0e2b",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "staff all loan",
+            "url": "http://localhost:8000/staff/loan-applications/",
+            "method": "GET",
+            "sortNum": 140000,
+            "created": "2024-05-03T15:24:43.134Z",
+            "modified": "2024-05-06T23:40:36.801Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDM5ODA5LCJpYXQiOjE3MTUwMzYyMDksImp0aSI6IjUzNzI1ZDY5ZGY1NTRlNzc5Y2RlMDkwNzgxMmNmYmMwIiwidXNlcl9pZCI6MTV9.Zc2i0FO4VLKZ5USVlSCMhLKjbtP84GLPShod6tbso_A"
+                }
+            ]
+        },
+        {
+            "_id": "59b6fd2c-68fb-472d-97fd-436689003baa",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "staff loan_status change",
+            "url": "http://localhost:8000/staff/loan-status-change/",
+            "method": "POST",
+            "sortNum": 150000,
+            "created": "2024-05-04T05:46:13.724Z",
+            "modified": "2024-05-07T00:04:49.210Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDQzODcyLCJpYXQiOjE3MTUwNDAyNzIsImp0aSI6IjVhNTYxNmE5NTVjMjRlMjE4MDI5NWRlNzdkMWFjNDM5IiwidXNlcl9pZCI6MTV9.ZhOqycDm_3SulLo2MKfzeiJq4sYcu3d7DypWKg6UhcY"
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "new_status",
+                        "value": "Approved"
+                    },
+                    {
+                        "name": "loan_id",
+                        "value": "50"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "82ea1871-2c29-45d6-8830-1ab33f8ffeea",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "customer budgetplan",
+            "url": "http://localhost:8000/financialplan/add-budget/",
+            "method": "POST",
+            "sortNum": 160000,
+            "created": "2024-05-05T03:55:14.890Z",
+            "modified": "2024-05-06T17:00:59.418Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDE2OTk5LCJpYXQiOjE3MTUwMTMzOTksImp0aSI6IjhhZWIwYzBlOTUzZjQ0ODg5YTExYTM5ZDg2NDg4YTE0IiwidXNlcl9pZCI6NDB9.qP_qgBtP7UmbRdyT9xGQHWZQoOVj8Jvflgk1xfGEyeA"
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "category",
+                        "value": "food"
+                    },
+                    {
+                        "name": "amount",
+                        "value": "2000"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "4b2d151e-7ec6-483b-8712-31604555fe60",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "budget-update",
+            "url": "http://localhost:8000/financialplan/budget-plans/2/",
+            "method": "PUT",
+            "sortNum": 180000,
+            "created": "2024-05-05T04:40:55.023Z",
+            "modified": "2024-05-06T17:03:09.591Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDE2OTk5LCJpYXQiOjE3MTUwMTMzOTksImp0aSI6IjhhZWIwYzBlOTUzZjQ0ODg5YTExYTM5ZDg2NDg4YTE0IiwidXNlcl9pZCI6NDB9.qP_qgBtP7UmbRdyT9xGQHWZQoOVj8Jvflgk1xfGEyeA"
+                }
+            ]
+        },
+        {
+            "_id": "6b089c86-12fa-4970-b215-c5456d2acb68",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "DeleteBudgetplan",
+            "url": "http://localhost:8000/financialplan/budget-plans/1/",
+            "method": "DELETE",
+            "sortNum": 190000,
+            "created": "2024-05-05T04:52:16.097Z",
+            "modified": "2024-05-06T16:50:57.260Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDE2OTk5LCJpYXQiOjE3MTUwMTMzOTksImp0aSI6IjhhZWIwYzBlOTUzZjQ0ODg5YTExYTM5ZDg2NDg4YTE0IiwidXNlcl9pZCI6NDB9.qP_qgBtP7UmbRdyT9xGQHWZQoOVj8Jvflgk1xfGEyeA"
+                }
+            ]
+        },
+        {
+            "_id": "ac0764e1-81e2-4c55-ae21-521c74fc999a",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "retrive budgetplan",
+            "url": "http://localhost:8000/financialplan/user-budget-plans/",
+            "method": "GET",
+            "sortNum": 200000,
+            "created": "2024-05-05T04:56:47.196Z",
+            "modified": "2024-05-06T16:56:39.674Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDE2OTk5LCJpYXQiOjE3MTUwMTMzOTksImp0aSI6IjhhZWIwYzBlOTUzZjQ0ODg5YTExYTM5ZDg2NDg4YTE0IiwidXNlcl9pZCI6NDB9.qP_qgBtP7UmbRdyT9xGQHWZQoOVj8Jvflgk1xfGEyeA"
+                }
+            ]
+        },
+        {
+            "_id": "6da58714-2f04-4cfb-87ee-20ff415d37e8",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "expens add",
+            "url": "http://localhost:8000/financialplan/add-expense/",
+            "method": "POST",
+            "sortNum": 210000,
+            "created": "2024-05-05T05:13:07.635Z",
+            "modified": "2024-05-06T17:43:21.073Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDIwMDYzLCJpYXQiOjE3MTUwMTY0NjMsImp0aSI6ImQwZDhlNmU4NjcxOTQ3MDNhMDkxNTg1ODc5NzA0OTRhIiwidXNlcl9pZCI6NDB9.yWZUIPR6d5MWgXMSEq0Ow6y7pZVqzGRJ8mBgXEWD0ms"
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "amount",
+                        "value": "4000"
+                    },
+                    {
+                        "name": "category",
+                        "value": "3"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "418f8e70-c2ad-413b-9884-d98efa2b491f",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "all expenses",
+            "url": "http://localhost:8000/financialplan/expenses/",
+            "method": "GET",
+            "sortNum": 220000,
+            "created": "2024-05-05T05:24:52.128Z",
+            "modified": "2024-05-06T17:46:36.617Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDIwMDYzLCJpYXQiOjE3MTUwMTY0NjMsImp0aSI6ImQwZDhlNmU4NjcxOTQ3MDNhMDkxNTg1ODc5NzA0OTRhIiwidXNlcl9pZCI6NDB9.yWZUIPR6d5MWgXMSEq0Ow6y7pZVqzGRJ8mBgXEWD0ms"
+                }
+            ]
+        },
+        {
+            "_id": "f0867692-9af5-4383-ab62-1ffe42e31bfe",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "edit expense",
+            "url": "http://localhost:8000/financial/expenses/5/",
+            "method": "PUT",
+            "sortNum": 230000,
+            "created": "2024-05-05T05:26:17.632Z",
+            "modified": "2024-05-05T06:02:35.430Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE0ODg5NzkzLCJpYXQiOjE3MTQ4ODYxOTMsImp0aSI6IjA3MTc2NDcyMzNlNDQ5MmE5NzQyZTRkZDFlNTRiMGQ5IiwidXNlcl9pZCI6MTh9.RS8G8QtS89RPk9dblOin7dx8xnr10P_V17qmByHGqls"
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "amount",
+                        "value": "30000"
+                    },
+                    {
+                        "name": "date",
+                        "value": "2023-01-10"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "839265c9-9d5f-4bdd-88b0-96baae75ed4b",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "delete expens",
+            "url": "http://localhost:8000/financial/expenses/4/",
+            "method": "DELETE",
+            "sortNum": 240000,
+            "created": "2024-05-05T05:52:26.905Z",
+            "modified": "2024-05-05T06:02:22.721Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE0ODg5NzkzLCJpYXQiOjE3MTQ4ODYxOTMsImp0aSI6IjA3MTc2NDcyMzNlNDQ5MmE5NzQyZTRkZDFlNTRiMGQ5IiwidXNlcl9pZCI6MTh9.RS8G8QtS89RPk9dblOin7dx8xnr10P_V17qmByHGqls"
+                }
+            ]
+        },
+        {
+            "_id": "71374387-1f81-4938-848b-ef1c00fbfc83",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "loanapplication edit",
+            "url": "http://localhost:8000/customer/loan/43/",
+            "method": "PUT",
+            "sortNum": 250000,
+            "created": "2024-05-05T16:09:46.124Z",
+            "modified": "2024-05-06T07:11:32.628Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE0OTgxODcwLCJpYXQiOjE3MTQ5NzgyNzAsImp0aSI6IjI1MGEyZTFjMDcyYzQzZGU4OGVhMjBhYTZkNDdkNDFiIiwidXNlcl9pZCI6MzF9.uOhGteQfJK7e82HoB_XBbIe4nE2gz-c-4Wn0ZSLBusA"
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "loanAmount",
+                        "value": "10000000"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "c5e46d14-31ac-4687-b747-a3c9cf0bcd04",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "loan retrieve customer",
+            "url": "http://localhost:8000/customer/loan/50/",
+            "method": "GET",
+            "sortNum": 260000,
+            "created": "2024-05-05T22:43:45.752Z",
+            "modified": "2024-05-07T00:13:20.792Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDQzMTM4LCJpYXQiOjE3MTUwMzk1MzgsImp0aSI6IjMwZTQwYzc5Nzk2NzRkOWE5ZmVlMTljZTUwOGE4NDZiIiwidXNlcl9pZCI6NDB9.0k1k9mwytsnLHxu_SZhBBKg3NIbNgkdDppQKfw0wcOw"
+                }
+            ]
+        },
+        {
+            "_id": "a60edbb9-0a50-41c2-8b85-32793dacd95d",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "delete loan application",
+            "url": "http://localhost:8000/customer/loan/41/",
+            "method": "DELETE",
+            "sortNum": 270000,
+            "created": "2024-05-05T23:01:28.237Z",
+            "modified": "2024-05-06T06:51:36.904Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE0OTgxODcwLCJpYXQiOjE3MTQ5NzgyNzAsImp0aSI6IjI1MGEyZTFjMDcyYzQzZGU4OGVhMjBhYTZkNDdkNDFiIiwidXNlcl9pZCI6MzF9.uOhGteQfJK7e82HoB_XBbIe4nE2gz-c-4Wn0ZSLBusA"
+                }
+            ]
+        },
+        {
+            "_id": "06217192-649d-4362-9bab-3551336f0827",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "loan repayment",
+            "url": "http://localhost:8000/customer/repayment/",
+            "method": "POST",
+            "sortNum": 280000,
+            "created": "2024-05-05T23:37:46.317Z",
+            "modified": "2024-05-07T00:14:02.101Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDQzMTM4LCJpYXQiOjE3MTUwMzk1MzgsImp0aSI6IjMwZTQwYzc5Nzk2NzRkOWE5ZmVlMTljZTUwOGE4NDZiIiwidXNlcl9pZCI6NDB9.0k1k9mwytsnLHxu_SZhBBKg3NIbNgkdDppQKfw0wcOw"
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "loan_application",
+                        "value": "50"
+                    },
+                    {
+                        "name": "amount_paid",
+                        "value": "7000"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "060eae98-da66-41ae-adb3-8ce211c1ba47",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "logout",
+            "url": "http://localhost:8000/api/user/logout/",
+            "method": "POST",
+            "sortNum": 290000,
+            "created": "2024-05-06T09:32:11.176Z",
+            "modified": "2024-05-06T15:32:17.858Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDEzMDg3LCJpYXQiOjE3MTUwMDk0ODcsImp0aSI6ImUxNTk0NzY1Y2UxYjRkZTk4ZjU0OGE5N2YzNWI0NmYzIiwidXNlcl9pZCI6NH0.BKjEzzDM4gA0QK5a0CllcdsGsF4h4FnWJpeEgcAgoTs"
+                }
+            ]
+        },
+        {
+            "_id": "94a1dcd9-2547-400d-a3c3-d7102b2e2147",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "delete expense",
+            "url": "http://localhost:8000/financialplan/expenses/5/",
+            "method": "DELETE",
+            "sortNum": 320000,
+            "created": "2024-05-06T17:52:37.775Z",
+            "modified": "2024-05-06T17:56:39.823Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDIwMDYzLCJpYXQiOjE3MTUwMTY0NjMsImp0aSI6ImQwZDhlNmU4NjcxOTQ3MDNhMDkxNTg1ODc5NzA0OTRhIiwidXNlcl9pZCI6NDB9.yWZUIPR6d5MWgXMSEq0Ow6y7pZVqzGRJ8mBgXEWD0ms"
+                }
+            ]
+        },
+        {
+            "_id": "41af00bf-60a7-4ea7-81cb-2b5fcba2d423",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "update expense",
+            "url": "http://localhost:8000/financialplan/expenses/1/",
+            "method": "PUT",
+            "sortNum": 330000,
+            "created": "2024-05-06T17:56:57.517Z",
+            "modified": "2024-05-06T17:59:37.530Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDIwMDYzLCJpYXQiOjE3MTUwMTY0NjMsImp0aSI6ImQwZDhlNmU4NjcxOTQ3MDNhMDkxNTg1ODc5NzA0OTRhIiwidXNlcl9pZCI6NDB9.yWZUIPR6d5MWgXMSEq0Ow6y7pZVqzGRJ8mBgXEWD0ms"
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "amount",
+                        "value": "30000"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "93a772ae-4f1b-40f1-b711-39667588837e",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "retrieve expense",
+            "url": "http://localhost:8000/financialplan/expenses/1/",
+            "method": "GET",
+            "sortNum": 340000,
+            "created": "2024-05-06T17:59:56.093Z",
+            "modified": "2024-05-06T18:00:28.765Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDIwMDYzLCJpYXQiOjE3MTUwMTY0NjMsImp0aSI6ImQwZDhlNmU4NjcxOTQ3MDNhMDkxNTg1ODc5NzA0OTRhIiwidXNlcl9pZCI6NDB9.yWZUIPR6d5MWgXMSEq0Ow6y7pZVqzGRJ8mBgXEWD0ms"
+                }
+            ]
+        },
+        {
+            "_id": "698e86c7-db05-4384-a155-84a983f04133",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "savinggoal",
+            "url": "http://localhost:8000/financialplan/add/savings/",
+            "method": "POST",
+            "sortNum": 350000,
+            "created": "2024-05-06T18:14:14.636Z",
+            "modified": "2024-05-07T01:42:52.109Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDQ5NDk1LCJpYXQiOjE3MTUwNDU4OTUsImp0aSI6IjAyMTgwMTdmZjFmMDQwN2I4MjkzMDNmOWI4NzU2YTIwIiwidXNlcl9pZCI6NDB9.utqXQ0FjcGvXh7HhkCOJIR_f8hU2m9SjWpISkDsHm7Q"
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "gold loan"
+                    },
+                    {
+                        "name": "target_amount",
+                        "value": "40000"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "a2c4e911-43d3-4b85-8d66-ca2cbbee9c4a",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "customer-all account details",
+            "url": "http://localhost:8000/customer/allaccountdetails/",
+            "method": "GET",
+            "sortNum": 360000,
+            "created": "2024-05-06T21:56:53.949Z",
+            "modified": "2024-05-07T01:40:22.679Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDQ5NDk1LCJpYXQiOjE3MTUwNDU4OTUsImp0aSI6IjAyMTgwMTdmZjFmMDQwN2I4MjkzMDNmOWI4NzU2YTIwIiwidXNlcl9pZCI6NDB9.utqXQ0FjcGvXh7HhkCOJIR_f8hU2m9SjWpISkDsHm7Q"
+                }
+            ]
+        },
+        {
+            "_id": "362ca406-3b59-45de-a31a-4fb65abdb21f",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "allsavings",
+            "url": "http://localhost:8000/financialplan/savings-goals/",
+            "method": "GET",
+            "sortNum": 370000,
+            "created": "2024-05-07T01:23:39.531Z",
+            "modified": "2024-05-07T01:24:44.661Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDQ4NjYyLCJpYXQiOjE3MTUwNDUwNjIsImp0aSI6ImZiYTNiZTUxZDg2ZDQ1ODU5M2JhNjgwMDVmZWI0NDBkIiwidXNlcl9pZCI6NDB9.bsKgkyWPQxI3gLicWtyNuE0JXdkUjrW2oUXkbQcWkRA"
+                }
+            ]
+        },
+        {
+            "_id": "7301cb13-01ee-49b0-ac33-caf768c67194",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "delete savings",
+            "url": "http://localhost:8000/financialplan/savings-goals/1/",
+            "method": "DELETE",
+            "sortNum": 380000,
+            "created": "2024-05-07T01:25:03.507Z",
+            "modified": "2024-05-07T01:25:43.178Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDQ4NjYyLCJpYXQiOjE3MTUwNDUwNjIsImp0aSI6ImZiYTNiZTUxZDg2ZDQ1ODU5M2JhNjgwMDVmZWI0NDBkIiwidXNlcl9pZCI6NDB9.bsKgkyWPQxI3gLicWtyNuE0JXdkUjrW2oUXkbQcWkRA"
+                }
+            ]
+        },
+        {
+            "_id": "0cbdd2f2-2bd6-4367-8337-5c321e5c8769",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "updatesavings",
+            "url": "http://localhost:8000/financialplan/savings-goals/2/",
+            "method": "PATCH",
+            "sortNum": 390000,
+            "created": "2024-05-07T01:28:34.411Z",
+            "modified": "2024-05-07T01:29:46.890Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDQ4NjYyLCJpYXQiOjE3MTUwNDUwNjIsImp0aSI6ImZiYTNiZTUxZDg2ZDQ1ODU5M2JhNjgwMDVmZWI0NDBkIiwidXNlcl9pZCI6NDB9.bsKgkyWPQxI3gLicWtyNuE0JXdkUjrW2oUXkbQcWkRA"
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "loan"
+                    },
+                    {
+                        "name": "target_amount",
+                        "value": "899999"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "7e823964-1ca0-42dd-ab51-cefe05829022",
+            "colId": "8ad9a1ad-a72f-4187-bd37-1d2f1614927c",
+            "containerId": "",
+            "name": "retrieve savings",
+            "url": "http://localhost:8000/financialplan/savings-goals/2/",
+            "method": "GET",
+            "sortNum": 400000,
+            "created": "2024-05-07T01:43:59.431Z",
+            "modified": "2024-05-07T01:44:38.032Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MDQ5NDk1LCJpYXQiOjE3MTUwNDU4OTUsImp0aSI6IjAyMTgwMTdmZjFmMDQwN2I4MjkzMDNmOWI4NzU2YTIwIiwidXNlcl9pZCI6NDB9.utqXQ0FjcGvXh7HhkCOJIR_f8hU2m9SjWpISkDsHm7Q"
+                }
+            ]
+        }
+    ],
+    "ref": "TDyYnEj3BMZcuugB0fbu2dpVYDuj4oL2tLsS3AfFNzbYtHg9398K454El8v4sm_xk0MXi8IzaT1lub7ur7TBIA"
+}
